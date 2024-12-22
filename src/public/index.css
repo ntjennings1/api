@@ -1,0 +1,25 @@
+/*
+  The design for the body.
+*/
+.body{
+    position: absolute;
+    background-color: darkgray;
+  
+    width: 100%;
+    height: 100%; 
+  
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+    display: block;
+}
+
+/*
+  The design for an option.
+*/
+.option{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
