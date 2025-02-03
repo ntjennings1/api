@@ -2,7 +2,7 @@
 
 An Application Programming Interface written in Javascript.
 
-OS Requirements
+## OS Requirements
 This API was developed and tested on the following operating systems. Using a different OS may not provide similar results.
 ```
     - Windows 11
@@ -21,7 +21,7 @@ This API was developed and tested with the following open-source programming lan
 
 ## Uses
 
-To use this API, enter the directory of the cloned repositry:
+To use this API, enter the directory of the cloned repository:
 ```
 cd $API_HOME
 ```
@@ -31,7 +31,7 @@ Then run the following script to install project dependencies:
 npm install
 ```
 
-Now, you can run start the server on port 8081 with the following command:
+Now, you can start the server on port 8081 with the following command:
 ```
 node src\index.js
 ```
