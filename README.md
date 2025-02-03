@@ -5,7 +5,7 @@ An Application Programming Interface written in Javascript.
 ## OS Requirements
 This API was developed and tested on the following operating systems. Using a different OS may not provide similar results.
 ```
-    - Windows 11
+- Windows 11
 ```
 
 ## Software Requirements
