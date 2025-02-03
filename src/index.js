@@ -5,7 +5,6 @@ const Database=require('./obj/Database.cjs');
 
 // Global variables
 const db_path = __dirname + "/data/data.db"
-
 const db = new Database(db_path);
 
 // The application
