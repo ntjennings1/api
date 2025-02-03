@@ -1,5 +1,12 @@
 // Imports
-var express=require('express');
+const express=require('express');
+
+const Database=require('./obj/Database.cjs');
+
+// Global variables
+const db_path = __dirname + "/data/data.db"
+
+const db = new Database(db_path);
 
 // The application
 var app=express();
@@ -12,18 +19,19 @@ app.use(express.static(__dirname + '/public'));
 //
 //  Routes:
 //
-//    /
-//      - index
-//      - Control & authentication
-//
-//    /down
-//      - down
-//      - Runs external scripts
+//    
 //
 // Index
 app.get('/', function(req, res){
-  res.sendfile(__dirname + '/views/index.html');
+  res.send('This is the Application Programming Interface.')
 });
 
-// Run @ Port
-app.listen(8081);
+// Storage
+app.get('/data', function (req, res){
+
+});
+
+// Run @ HTTP Port
+app.listen(8081, function(){
+  console.log('API is running.')  
+});

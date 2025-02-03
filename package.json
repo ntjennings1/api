@@ -1,5 +1,25 @@
 {
+  "name": "api",
+  "version": "1.0.0",
+  "description": "A simple, extendible Javascript server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntjennings1/api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntjennings1/api/issues"
+  },
+  "homepage": "https://github.com/ntjennings1/api#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "sqlite3": "^5.1.7"
   }
 }
